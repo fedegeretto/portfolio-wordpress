@@ -522,11 +522,11 @@ form{
     color: #130080;
 }
 
-.menu-navegacion{
+/* .menu-navegacion{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
+} */
 
 .menu-navegacion a{
     color: #000;
