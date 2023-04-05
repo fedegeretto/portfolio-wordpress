@@ -813,7 +813,8 @@ form{
   }
 
   .navegacion{
-    height: 90vh;
+    justify-content: flex-start;
+    gap: 1.5rem;
   }
 
 
