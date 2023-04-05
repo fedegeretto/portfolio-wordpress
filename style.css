@@ -696,7 +696,7 @@ form{
 
   .navegacion.activo{
     width: 80%;
-
+    justify-content: center;
   }
 
   .menu-contacto li a{
