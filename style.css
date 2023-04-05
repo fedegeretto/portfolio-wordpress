@@ -811,6 +811,10 @@ form{
   .menu-footer{
     text-align: left;
   }
+
+  .navegacion{
+    max-height: 90vh;
+  }
 /* 
   .navegacion.activo{
     width: 80%;
