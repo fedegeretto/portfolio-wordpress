@@ -82,6 +82,9 @@ header{
   
 #abrir-menu:hover {
     animation: balanceo 0.6s ease-in-out;
+}
+
+.abrir-menu-amarillo:hover{
     color: #fffb00;
 }
   
@@ -718,6 +721,14 @@ form{
   .navegacion{
     justify-content: flex-start;
     gap: 1.5rem;
+  }
+
+  .contenedor-informacion h2{
+    font-size: 2rem;
+  }
+
+  .contenedor-tit-pag h1{
+    font-size: 1.5rem;
   }
 
 }

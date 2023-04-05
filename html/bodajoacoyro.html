@@ -9,13 +9,43 @@
     <title>Boda Joaco y Ro</title>
 </head>
 <body>
+    <nav class="navegacion" id="navegacion">
+        <div class="menu-titulo">
+            <h2>Menú</h2>
+            <i class="fa-solid fa-xmark" id="cerrar-menu"></i>
+        </div>
+        <ul class="menu-navegacion">
+            <li><a href="../index.html" class="enlace-menu">Inicio</a></li>
+            <li><a href="../#portfolio" class="enlace-menu">Portfolio</a></li>
+            <li><a href="../#contactanos" class="enlace-menu">Contacto</a></li>
+        </ul>
+        <ul class="menu-contacto">
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:fgprogramacionweb@gmail.com"><p>fgprogramacionweb<br>@gmail.com</p></a>
+            </li>
+            <li>
+                <i class="fa-brands fa-whatsapp"></i>
+                <a href="https://wa.link/pfq4lz" target="_blank"><p>+54 3584866129</p></a>
+            </li>
+            <li>
+                <i class="fa-brands fa-tiktok"></i>
+                <a href="https://www.tiktok.com/@fgprogramacionweb" target="_blank"><p>@fgprogramacionweb</p></a>
+            </li>
+            <li>
+                <i class="fa-brands fa-youtube"></i>
+                <a href="https://www.youtube.com/@fgprogramacionweb?sub_confirmation=1" target="_blank"><p>@fgprogramacionweb</p></a>
+            </li>
+        </ul>
+        <h3 class="menu-footer">FG - Diseño y Programación Web</h3>
+    </nav>
     <div class="contenedor-pagina">
         <div class="contenedor-tit-pag bg-boda">
             <h1>FG Diseño y Programación Web</h1>
             <img src="../images/pagina-web-boda-jyr.png" alt="" class="bg-boda imagen">
         </div>
         <div class="contenedor-informacion">
-            <p class="menu"><i class="fa-solid fa-bars"></i></p>
+            <p class="menu"><i class="fa-solid fa-bars" id="abrir-menu"></i></p>
             <h2 class="bg-boda-after">Landing Page para una Boda</h2>
             <p class="descripcion">Nuestra Historia es una tarjeta de invitación web para el casamiento de Joaco y Ro. En esta landing page se puede ver la fecha de casamiento, su historia, un contador de tiempo, codigo de vestimenta, galeria de imagenes, ubicacion de la ceremonia y de la fiesta, etcétera. Además tiene un pop-up de bienvenida.</p>
             <img src="../images/mockup-bodajyr.png" alt="">
@@ -46,5 +76,7 @@
             </div>
         </div>
     </footer>
+    <script src="../main.js"></script>
+    <script src="../menu.js"></script>
 </body>
 </html>
