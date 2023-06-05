@@ -27,26 +27,16 @@ function escribirSiguientePalabra() {
 escribirSiguientePalabra();
 
 
-
-  // Obtener el contenedor de imagen y el enlace
-  var imageContainer = document.querySelector('.image-container');
+  // Obtener el enlace
   var link = document.getElementById('mobile-link');
 
-  // Variable para controlar el estado del enlace
-  var linkActivated = false;
-
-  // Función para activar el enlace después de 3 segundos
+  // Función para activar el enlace después de 2 segundos
   function activateLink() {
-    if (!linkActivated) {
-      linkActivated = true;
-      setTimeout(function() {
-        link.style.pointerEvents = 'auto'; // Habilitar el enlace
-      }, 3000); // Retrasar la activación en 3 segundos (3000 ms)
-    }
+    setTimeout(function() {
+      link.click(); // Simular el clic en el enlace
+    }, 2000); // Retrasar la activación en 2 segundos (2000 ms)
   }
 
-  // Agregar eventos de hover y touchstart al contenedor de imagen
-  imageContainer.addEventListener('mouseover', activateLink);
-  imageContainer.addEventListener('touchstart', activateLink);
-
+  // Agregar evento de clic al enlace
+  link.addEventListener('click', activateLink);
 
