@@ -406,9 +406,9 @@ form{
   
   .overlay .button {
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
-    width: 80%;
+    width: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     padding: 8px;
@@ -429,7 +429,7 @@ form{
   }
 
   .button div span{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Poppins';
     color: #000033;
     font-weight: 600;

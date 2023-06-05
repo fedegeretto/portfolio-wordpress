@@ -25,18 +25,3 @@ function escribirSiguientePalabra() {
 }
 
 escribirSiguientePalabra();
-
-
-  // Obtener el enlace
-  var link = document.getElementById('mobile-link');
-
-  // Función para activar el enlace después de 2 segundos
-  function activateLink() {
-    setTimeout(function() {
-      link.click(); // Simular el clic en el enlace
-    }, 2000); // Retrasar la activación en 2 segundos (2000 ms)
-  }
-
-  // Agregar evento de clic al enlace
-  link.addEventListener('click', activateLink);
-
