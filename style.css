@@ -726,6 +726,67 @@ form{
     background-color: #F57575;
 }
 
+.bg-app-idiomas{
+    background-color: #02198d;
+}
+
+.bg-app-idiomas::after{
+    background-color: #02198d;
+}
+
+.bg-app-idiomas-after::after{
+    background-color: #02198d;
+}
+
+.bg-editmovie{
+    background-color: #6C2284;
+}
+
+.bg-editmovie::after{
+    background-color: #6C2284;
+}
+
+.bg-editmovie-after::after{
+    background-color: #6C2284;
+}
+
+.bg-il-capitano{
+    background-color: rgb(241, 117, 15);
+}
+
+.bg-il-capitano::after{
+    background-color: rgb(241, 117, 15);
+}
+
+.bg-il-capitano-after::after{
+    background-color: rgb(241, 117, 15);
+}
+
+.bg-noticias{
+    background-color: #b7a2f1;
+}
+
+.bg-noticias::after{
+    background-color: #b7a2f1;
+}
+
+.bg-noticias-after::after{
+    background-color: #b7a2f1;
+}
+
+.bg-elebar-cerveceria{
+    background-color: #E1A10B;
+}
+
+.bg-elebar-cerveceria::after{
+    background-color: #E1A10B;
+}
+
+.bg-elebar-cerveceria-after::after{
+    background-color: #E1A10B;
+}
+
+
 
 .logo-icono{
     display: flex;
