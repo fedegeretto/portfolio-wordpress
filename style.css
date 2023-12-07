@@ -1089,5 +1089,8 @@ form{
     align-items: start
   }
   
+  .boton-formulario{
+    width: 60%;
+  }
 
 }
