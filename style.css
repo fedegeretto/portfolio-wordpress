@@ -786,8 +786,6 @@ form{
     background-color: #E1A10B;
 }
 
-
-
 .logo-icono{
     display: flex;
     width: 100%;
@@ -1033,6 +1031,14 @@ form{
 
   .ocultar-mobil{
     display: none;
+  }
+
+  .seccion-portfolio{
+    gap: 0rem;
+  }
+
+  .seccion-portfolio h2, h3, p{
+    padding-bottom: 1rem;
   }
 
   footer{
